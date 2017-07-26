@@ -43,7 +43,7 @@ public class FruitActivity extends AppCompatActivity {
         /**设置collapsingToolBar折叠标题栏的标题*/
         collapsingToolbar.setTitle(fruitName);
 
-        /**加载图片*/
+        /**加载图片 */
         Glide.with(this).load(fruitImageId).into(fruitImageView);
 
         /**加载内容*/
